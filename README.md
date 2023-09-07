@@ -1,4 +1,4 @@
-TicTacToe by me
+# TicTacToe by me
 
 Requirement:
 1. Pygame
