@@ -1,9 +1,23 @@
 
 #$ Size
-WIDTH = 600
-HEIGHT = 600 
+WIDTH = 500
+HEIGHT = 500 
 
 #$ Board
+ROWS = 3
+COLS = 3
+SQSIZE = WIDTH // COLS
+
+#$ Line,Circle,Cross
+LINE_WIDTH = 10
+CIRC_WIDTH = 10
+CROSS_WIDTH = 15
+
+RADIUS = SQSIZE // 4
+OFFSET = 50
 
 #$ Colors
 BG_COLOR = (28, 170, 156)
+LINE_COLOR = (0, 0, 0)
+CIRC_COLOR = (255, 255, 255)
+CROSS_COLOR = (66, 66, 66)
