@@ -153,7 +153,7 @@ class AI:
             #* Minimax Algo
             eval, move = self.minimax(main_board, False)
         
-        print(f"AI Has Choose To Mark The Squares In Position{move} With An Evaluation Of {eval}")
+        # print(f"AI Has Choose To Mark The Squares In Position{move} With An Evaluation Of {eval}")
         
         return move
         
